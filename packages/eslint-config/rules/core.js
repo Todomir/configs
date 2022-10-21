@@ -1,4 +1,4 @@
-const OFF = 0;
+/* const OFF = 0; */
 const WARN = 1;
 const ERROR = 2;
 
@@ -9,6 +9,10 @@ module.exports = {
   'no-array-constructor': WARN,
   'no-caller': ERROR,
   'no-cond-assign': [WARN, 'except-parens'],
+  'no-constant-condition': ERROR,
+  'no-unreachable': ERROR,
+  'no-constant-binary-expression': ERROR,
+  'no-sequences': ERROR,
   'no-const-assign': ERROR,
   'no-control-regex': WARN,
   'no-dupe-args': WARN,
@@ -28,8 +32,8 @@ module.exports = {
   'no-func-assign': ERROR,
   'no-global-assign': ERROR,
   'no-implied-eval': WARN,
-  'no-invalid-regexp': WARN,
-  'no-label-var': WARN,
+  'no-invalid-regexp': ERROR,
+  'no-label-var': ERROR,
   'no-labels': [WARN, { allowLoop: true, allowSwitch: false }],
   'no-lone-blocks': WARN,
   'no-loop-func': WARN,
@@ -40,12 +44,12 @@ module.exports = {
         ['&', '|', '^', '~', '<<', '>>', '>>>'],
         ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
         ['&&', '||'],
-        ['in', 'instanceof']
+        ['in', 'instanceof'],
       ],
-      allowSamePrecedence: false
-    }
+      allowSamePrecedence: false,
+    },
   ],
-  'no-unsafe-negation': WARN,
+  'no-unsafe-negation': ERROR,
   'no-new-func': WARN,
   'no-new-object': WARN,
   'no-octal': WARN,
@@ -54,46 +58,44 @@ module.exports = {
   'no-script-url': WARN,
   'no-self-assign': WARN,
   'no-self-compare': WARN,
-  'no-sequences': WARN,
   'no-shadow-restricted-names': WARN,
   'no-sparse-arrays': WARN,
   'no-template-curly-in-string': WARN,
   'no-this-before-super': WARN,
   'no-undef': ERROR,
-  'no-unreachable': WARN,
   'no-unused-expressions': [
-    WARN,
+    ERROR,
     {
       allowShortCircuit: true,
       allowTernary: true,
-      allowTaggedTemplates: true
-    }
+      allowTaggedTemplates: true,
+    },
   ],
   'no-unused-labels': WARN,
   'no-unused-vars': [
     WARN,
     {
       args: 'none',
-      ignoreRestSiblings: true
-    }
+      ignoreRestSiblings: true,
+    },
   ],
   'no-use-before-define': [
-    WARN,
-    { classes: false, functions: false, variables: false }
+    ERROR,
+    { classes: false, functions: false, variables: false },
   ],
-  'no-useless-computed-key': WARN,
-  'no-useless-concat': WARN,
-  'no-useless-constructor': WARN,
-  'no-useless-escape': WARN,
+  'no-useless-computed-key': ERROR,
+  'no-useless-concat': ERROR,
+  'no-useless-constructor': ERROR,
+  'no-useless-escape': ERROR,
   'no-useless-rename': [
     WARN,
     {
       ignoreDestructuring: false,
       ignoreImport: false,
-      ignoreExport: false
-    }
+      ignoreExport: false,
+    },
   ],
   'require-yield': WARN,
   'use-isnan': WARN,
-  'valid-typeof': WARN
+  'valid-typeof': WARN,
 };
