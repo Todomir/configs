@@ -1,9 +1,18 @@
 {
   "name": "@todomir/tsconfig",
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
   "files": [
     "base.json",
     "nextjs.json",
     "react-library.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "Opinionated Prettier configuration for my projects",
   "main": "index.js",
+  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "prettier",
-    "formatting",
+    "prettierconfig",
     "prettier-config"
   ],
-  "author": "Abner Rodrigues",
-  "license": "ISC",
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.1.13"
   },
   "peerDependencies": {
     "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
