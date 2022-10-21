@@ -1,0 +1,26 @@
+{
+  "name": "@todomir/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react.js"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+		"@typescript-eslint/parser": "^5.40.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "eslint": "^7.23.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

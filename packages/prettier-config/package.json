@@ -1,0 +1,19 @@
+{
+  "name": "@todomir/prettier-config",
+  "version": "1.0.0",
+  "description": "Opinionated Prettier configuration for my projects",
+  "main": "index.js",
+  "keywords": [
+    "prettier",
+    "formatting",
+    "prettier-config"
+  ],
+  "author": "Abner Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
