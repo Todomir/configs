@@ -1,8 +1,9 @@
 {
   "name": "todomir",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "scripts": {
@@ -13,12 +14,12 @@
   },
   "devDependencies": {
     "@todomir/eslint-config": "workspace:*",
+    "@todomir/prettier-config": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "pnpm@7.9.0"
 }
