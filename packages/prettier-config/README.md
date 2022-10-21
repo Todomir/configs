@@ -20,7 +20,7 @@ Referencie no `package.json` usando a propriedade `prettier`:
   "name": "meu-projeto",
   "prettier": "@todomir/prettier-config",
   "devDependencies": {
-    "@todomir/prettier-config": "latest
+    "@todomir/prettier-config": "latest"
   }
 }
 ```
