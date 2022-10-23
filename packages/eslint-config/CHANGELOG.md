@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 5.0.1
+
+### Patch Changes
+
+- 02edf77: Fix import/order rule
+
 ## 5.0.0
 
 ### Major Changes
