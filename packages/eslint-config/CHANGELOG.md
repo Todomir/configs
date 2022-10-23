@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- 075837e: Updated `eslint` to most recent version. Please check migration guide at [ESLint's website](https://eslint.org/docs/latest/user-guide/migrating-to-8.0.0).
+
 ## 3.0.0
 
 ### Major Changes
