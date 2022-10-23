@@ -5,14 +5,14 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-standard-scss',
     'stylelint-config-prettier',
-    'stylelint-config-rational-order-fix',
+    'stylelint-config-clean-order',
   ],
   rules: {
     'declaration-empty-line-before': null,
-    'plugin/rational-order': [
-      true,
+    'custom-property-pattern': [
+      '^(_)?([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        'empty-line-between-groups': true,
+        message: 'Expected custom property name to be kebab-case',
       },
     ],
   },

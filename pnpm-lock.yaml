@@ -63,18 +63,16 @@ importers:
   packages/stylelint-config:
     specifiers:
       stylelint: ^14.14.0
+      stylelint-config-clean-order: ^1.0.0
       stylelint-config-prettier: ^9.0.3
-      stylelint-config-rational-order-fix: ^0.1.9
       stylelint-config-standard: ^29.0.0
       stylelint-config-standard-scss: ^5.0.0
-      stylelint-order: ^5.0.0
     dependencies:
       stylelint: 14.14.0
+      stylelint-config-clean-order: 1.0.0_stylelint@14.14.0
       stylelint-config-prettier: 9.0.3_stylelint@14.14.0
-      stylelint-config-rational-order-fix: 0.1.9
       stylelint-config-standard: 29.0.0_stylelint@14.14.0
       stylelint-config-standard-scss: 5.0.0_stylelint@14.14.0
-      stylelint-order: 5.0.0_stylelint@14.14.0
 
   packages/tsconfig:
     specifiers: {}
@@ -3133,6 +3131,15 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
+  /stylelint-config-clean-order/1.0.0_stylelint@14.14.0:
+    resolution: {integrity: sha512-5y1AI9k+hHrtDHpSuVYILChgztp5+6w83f/F6XLUfDaGT2tj8IFHjcSBtFyx1G8eTI6a+JcLBUmmEW4H635r1A==}
+    peerDependencies:
+      stylelint: '>=14'
+    dependencies:
+      stylelint: 14.14.0
+      stylelint-order: 5.0.0_stylelint@14.14.0
+    dev: false
+
   /stylelint-config-prettier/9.0.3_stylelint@14.14.0:
     resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
     engines: {node: '>= 12'}
@@ -3141,16 +3148,6 @@ packages:
       stylelint: '>=11.0.0'
     dependencies:
       stylelint: 14.14.0
-    dev: false
-
-  /stylelint-config-rational-order-fix/0.1.9:
-    resolution: {integrity: sha512-88n+j2zmfAQrxYCPMOmuQQTAxe8qhVJs7qsAZ7/+S0yT9d8gddcXbfEfqxysQyY1N1TcdHxWmTOIxGiE+YsbRg==}
-    engines: {node: '>=16.13.2', npm: '>=8.1.2'}
-    dependencies:
-      stylelint: 14.14.0
-      stylelint-order: 5.0.0_stylelint@14.14.0
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /stylelint-config-recommended-scss/7.0.0_stylelint@14.14.0:
