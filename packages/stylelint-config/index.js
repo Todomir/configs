@@ -5,9 +5,10 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-standard-scss',
     'stylelint-config-prettier',
-    'stylelint-config-rational-order',
+    'stylelint-config-rational-order-fix',
   ],
   rules: {
+    'declaration-empty-line-before': null,
     'plugin/rational-order': [
       true,
       {
