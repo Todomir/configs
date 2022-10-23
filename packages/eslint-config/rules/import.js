@@ -12,7 +12,8 @@ module.exports = {
       'newlines-between': 'always',
       groups: [
         'builtin',
-        ['sibling, parent'],
+        'sibling',
+        'parent',
         'internal',
         'external',
         'type',
