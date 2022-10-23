@@ -24,7 +24,7 @@ module.exports = {
   '@typescript-eslint/no-redeclare': ERROR,
   'no-use-before-define': OFF,
   '@typescript-eslint/no-use-before-define': [
-    WARN,
+    ERROR,
     {
       functions: false,
       classes: false,
