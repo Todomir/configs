@@ -9,6 +9,12 @@ module.exports = {
   ],
   rules: {
     'declaration-empty-line-before': null,
+    'selector-class-pattern': [
+      '^(__([a-z0-9]+-?)+)?[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$',
+      {
+        message: 'Expected class name to be in BEM format',
+      }
+    ],
     'custom-property-pattern': [
       '^(_)?([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
