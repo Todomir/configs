@@ -1,5 +1,11 @@
 # @todomir/stylelint-config
 
+## 2.1.1
+
+### Patch Changes
+
+- 57929b4: Allow for '--' in start of BEM classes
+
 ## 2.1.0
 
 ### Minor Changes
