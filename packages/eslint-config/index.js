@@ -23,7 +23,7 @@ module.exports = {
     ...coreRules,
     ...importRules
   },
-  plugins: ['import'],
+  plugins: ['import', 'eslint-plugin-import-helpers'],
   extends: ['eslint:recommended', 'prettier'],
   overrides: [
     {
