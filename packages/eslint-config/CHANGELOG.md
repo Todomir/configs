@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 6.0.0
+
+### Major Changes
+
+- e9983f2: Auto sort imports
+
 ## 5.0.1
 
 ### Patch Changes
