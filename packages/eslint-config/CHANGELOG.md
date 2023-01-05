@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 6.0.1
+
+### Patch Changes
+
+- 92ceeca: Add `eslint-plugin-import-helpers` to plugin list
+
 ## 6.0.0
 
 ### Major Changes
