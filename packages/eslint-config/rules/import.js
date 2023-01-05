@@ -6,32 +6,22 @@ module.exports = {
   'import/first': ERROR,
   'import/no-amd': ERROR,
   'import/no-webpack-loader-syntax': ERROR,
-  'import/order': [
+  'import-helpers/order-imports': [
     ERROR,
     {
-      'newlines-between': 'always',
-      groups: [
-        'builtin',
-        'sibling',
-        'parent',
-        'internal',
-        'external',
+      'newlinesBetween': 'always',
+      'groups': [
+        '/^react/',
+        'module',
+        ['/^@/', '/^~/'],
+        ['parent', 'sibling'],
         'type',
-        'object',
         'index',
       ],
-      pathGroups: [
-        {
-          pattern: '~/**',
-          group: 'external',
-          position: 'before',
-        },
-        {
-          pattern: '@/**',
-          group: 'external',
-          position: 'before',
-        },
-      ],
+      'alphabetize': {
+        'order': 'asc',
+        'ignoreCase': true,
+      }
     },
   ],
 };
