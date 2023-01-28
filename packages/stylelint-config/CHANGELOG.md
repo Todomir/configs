@@ -1,5 +1,11 @@
 # @todomir/stylelint-config
 
+## 2.2.0
+
+### Minor Changes
+
+- f18a7ca: Update package dependencies
+
 ## 2.1.1
 
 ### Patch Changes
