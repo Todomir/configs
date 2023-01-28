@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 7.1.0
+
+### Minor Changes
+
+- f18a7ca: Update package dependencies
+
 ## 7.0.0
 
 ### Major Changes
