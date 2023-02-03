@@ -77,6 +77,7 @@ module.exports = {
     {
       args: 'none',
       ignoreRestSiblings: true,
+      argsIgnorePattern: '^_',
     },
   ],
   'no-use-before-define': [
