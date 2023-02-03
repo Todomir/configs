@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 7.1.1
+
+### Patch Changes
+
+- 2355755: Add `ignorePatternArgs` to `no-unused-vars`
+
 ## 7.1.0
 
 ### Minor Changes
