@@ -11,7 +11,7 @@
     "prettier-config"
   ],
   "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.2.2"
+    "prettier-plugin-tailwindcss": "^0.3.0"
   },
   "peerDependencies": {
     "prettier": "^2.7.1"
