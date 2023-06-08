@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 8.0.0
+
+### Major Changes
+
+- 0fc2cc5: Update deps
+
 ## 7.1.1
 
 ### Patch Changes
