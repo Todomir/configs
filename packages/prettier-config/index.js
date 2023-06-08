@@ -2,7 +2,7 @@ module.exports = {
   arrowParens: 'avoid',
   bracketSpacing: true,
   endOfLine: 'auto',
-  printWidth: 80,
+  printWidth: 120,
   semi: true,
   tabWidth: 2,
   bracketSameLine: true,
@@ -14,5 +14,5 @@ module.exports = {
   quoteProps: 'as-needed',
   requirePragma: false,
   singleQuote: true,
-  useTabs: false
+  useTabs: false,
 };
