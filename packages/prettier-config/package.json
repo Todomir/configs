@@ -1,6 +1,6 @@
 {
   "name": "@todomir/prettier-config",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Opinionated Prettier configuration for my projects",
   "main": "index.js",
   "author": "Abner Rodrigues <abnerluis1001@gmail.com>",

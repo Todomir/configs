@@ -1,5 +1,11 @@
 # @todomir/stylelint-config
 
+## 4.0.0
+
+### Major Changes
+
+- ef63cff: Change main Node version to 18
+
 ## 3.0.0
 
 ### Major Changes
