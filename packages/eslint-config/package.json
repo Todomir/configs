@@ -1,6 +1,6 @@
 {
   "name": "@todomir/eslint-config",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "main": "index.js",
   "license": "MIT",
   "description": "Opinionated ESLint configuration for my projects",
