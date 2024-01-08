@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 9.0.1
+
+### Patch Changes
+
+- 1ecb477: Remove old eslint-plugin-import code
+
 ## 9.0.0
 
 ### Major Changes
