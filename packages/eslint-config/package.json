@@ -6,6 +6,7 @@
   "description": "Opinionated ESLint configuration for my projects",
   "exports": {
     ".": "./index.js",
+    "./jsx": "./jsx.js",
     "./react": "./react.js"
   },
   "dependencies": {
