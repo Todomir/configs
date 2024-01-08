@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 9.0.2
+
+### Patch Changes
+
+- cd931b2: Remove eslint-plugin-import in index.js
+
 ## 9.0.1
 
 ### Patch Changes
