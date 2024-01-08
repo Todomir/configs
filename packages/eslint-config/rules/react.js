@@ -1,8 +1,6 @@
-const OFF = 0;
-/* const WARN = 1; */
-const ERROR = 2;
+const config = require('../config');
 
 module.exports = {
-  "react/react-in-jsx-scope": OFF,
-	"react-hooks/exhaustive-deps": ERROR,
-}
+  'react/react-in-jsx-scope': config.OFF,
+  'react-hooks/exhaustive-deps': config.ERROR,
+};
