@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 9.0.3
+
+### Patch Changes
+
+- 839d733: Add eslint-config-prettier to regular dependencies
+
 ## 9.0.2
 
 ### Patch Changes
