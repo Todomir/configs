@@ -21,7 +21,6 @@ module.exports = {
     {
       files: ["**/*.ts?(x)"],
       extends: [
-        "plugin:import/typescript",
         "plugin:@typescript-eslint/recommended",
         /* "plugin:@typescript-eslint/recommended-requiring-type-checking", */
       ],
