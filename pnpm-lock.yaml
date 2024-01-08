@@ -42,13 +42,13 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^6.18.0
         version: 6.18.0(eslint@8.56.0)(typescript@5.3.3)
+      eslint-config-prettier:
+        specifier: ^9.1.0
+        version: 9.1.0(eslint@8.56.0)
     devDependencies:
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
-      eslint-config-prettier:
-        specifier: ^9.1.0
-        version: 9.1.0(eslint@8.56.0)
       eslint-plugin-jsx-a11y:
         specifier: ^6.8.0
         version: 6.8.0(eslint@8.56.0)
@@ -1580,7 +1580,7 @@ packages:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 8.56.0
-    dev: true
+    dev: false
 
   /eslint-plugin-jsx-a11y@6.8.0(eslint@8.56.0):
     resolution: {integrity: sha512-Hdh937BS3KdwwbBaKd5+PLCOmYY6U4f2h9Z2ktwtNKvIdIEu137rjYbcb9ApSbVJfWxANNuiKTD/9tOKjK9qOA==}
@@ -4237,7 +4237,6 @@ packages:
     id: github.com/ianvs/prettier-plugin-sort-imports/539e23de96b9fcb6bdb3b485a984894c419f6ea8
     name: '@ianvs/prettier-plugin-sort-imports'
     version: 4.1.1
-    prepare: true
     requiresBuild: true
     peerDependencies:
       '@vue/compiler-sfc': '>=3.0.0'
