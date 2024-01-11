@@ -1,5 +1,15 @@
 # @todomir/eslint-config
 
+## 10.0.0
+
+### Major Changes
+
+- 31ae7ce: - Add `eslint-plugin-unicorn`
+  - Add `eslint-plugin-typescript-sort-keys`,
+  - Add `eslint-plugin-promise`
+  - Add `@babel/plugin-syntax-import-assertions`
+  - Revamped all configs
+
 ## 9.0.4
 
 ### Patch Changes
