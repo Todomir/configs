@@ -1,3 +1,5 @@
+const config = require("./config");
+
 const coreRules = require("./rules/core");
 
 const typescriptRules = require("./rules/ts");
