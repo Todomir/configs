@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 9.0.4
+
+### Patch Changes
+
+- fde376b: Update package versions
+
 ## 9.0.3
 
 ### Patch Changes

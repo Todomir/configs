@@ -1,5 +1,12 @@
 # @todomir/prettier-config
 
+## 5.1.0
+
+### Minor Changes
+
+- 980f7bc: Update import sorting rules to better break down packages
+- 6e48761: Update import rules
+
 ## 5.0.1
 
 ### Patch Changes
