@@ -1,5 +1,15 @@
 # @todomir/prettier-config
 
+## 5.0.0
+
+### Major Changes
+
+- 3df124b: Add plugins and import sort rules
+
+### Patch Changes
+
+- 95ce31d: Remove wrongly installed package
+
 ## 4.0.0
 
 ### Major Changes
