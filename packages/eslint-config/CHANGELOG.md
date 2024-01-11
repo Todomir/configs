@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 10.0.1
+
+### Patch Changes
+
+- 5b8bc2a: Fix config not imported
+
 ## 10.0.0
 
 ### Major Changes
