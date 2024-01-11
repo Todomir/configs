@@ -29,7 +29,11 @@ module.exports = {
 
   // Import sorting rules
   importOrder: [
-    "^(react|next|solid|astro|@builder-io|vue|nuxt|angular|svelte)$",
+    "^(react|next|solid|astro)$",
+    "",
+    "^(@builder-io|qwik)$",
+    "",
+    "^(vue|nuxt|angular|svelte)$",
     "",
     "<BUILTIN_MODULES>",
     "",
