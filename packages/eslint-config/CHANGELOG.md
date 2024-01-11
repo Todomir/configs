@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 10.0.2
+
+### Patch Changes
+
+- 9e3c073: Remove config.js
+
 ## 10.0.1
 
 ### Patch Changes
