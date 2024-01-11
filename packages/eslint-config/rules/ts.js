@@ -155,7 +155,6 @@ module.exports = {
   "@typescript-eslint/type-annotation-spacing": 2,
   "@typescript-eslint/typedef": 0,
   "@typescript-eslint/unified-signatures": 2,
-  "canonical/prefer-inline-type-import": 2,
   "default-param-last": 0,
   "import/no-dynamic-require": 0,
   "jsdoc/require-property-type": 0,
