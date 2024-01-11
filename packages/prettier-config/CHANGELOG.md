@@ -1,5 +1,11 @@
 # @todomir/prettier-config
 
+## 5.0.1
+
+### Patch Changes
+
+- e64ef1c: Add plugins to dependencies instead of devDependencies
+
 ## 5.0.0
 
 ### Major Changes
