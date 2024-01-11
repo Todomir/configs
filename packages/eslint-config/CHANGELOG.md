@@ -1,5 +1,15 @@
 # @todomir/eslint-config
 
+## 10.1.0
+
+### Minor Changes
+
+- ef9fd90: Remove code formatting rules
+
+### Patch Changes
+
+- 2d43f2c: Fix use of not installed plugins
+
 ## 10.0.3
 
 ### Patch Changes
