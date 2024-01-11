@@ -77,9 +77,6 @@ importers:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: github:ianvs/prettier-plugin-sort-imports
         version: github.com/ianvs/prettier-plugin-sort-imports/539e23de96b9fcb6bdb3b485a984894c419f6ea8(prettier@3.1.1)
-      prettier-config:
-        specifier: ^1.0.0
-        version: 1.0.0
       prettier-plugin-curly:
         specifier: ^0.1.3
         version: 0.1.3(prettier@3.1.1)
@@ -3077,11 +3074,6 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
-
-  /prettier-config@1.0.0:
-    resolution: {integrity: sha512-D5n2lCfmACTpARhHPFh9eqpQCGjLor3khMkqzi/EhYeZ8+Xe3Q+6c5oZIpNMZQybsRm4ijn2ihQniue61juQhg==}
-    hasBin: true
-    dev: true
 
   /prettier-plugin-curly@0.1.3(prettier@3.1.1):
     resolution: {integrity: sha512-NYr2BPex/0fFwDbiZZr91kfgBko1tmaorLOrVAkT5rN91mIYYJRiWabRxWGFqzRSO7J0eoEcxakY9NWvJWAh4w==}
