@@ -1,45 +1,43 @@
-const config = require("../config");
-
 module.exports = {
   rules: {
-    "@typescript-eslint/await-thenable": config.ERROR,
+    "@typescript-eslint/await-thenable": 2,
     "@typescript-eslint/consistent-type-exports": [
-      config.ERROR,
+      2,
       {
         fixMixedExportsWithInlineTypeSpecifier: true,
       },
     ],
-    "@typescript-eslint/dot-notation": config.ERROR,
+    "@typescript-eslint/dot-notation": 2,
     "@typescript-eslint/no-base-to-string": [
-      config.ERROR,
+      2,
       {
         ignoredTypeNames: ["RegExp"],
       },
     ],
     "@typescript-eslint/no-confusing-void-expression": [
-      config.ERROR,
+      2,
       {
         ignoreArrowShorthand: true,
         ignoreVoidOperator: false,
       },
     ],
     "@typescript-eslint/no-floating-promises": [
-      config.ERROR,
+      2,
       {
         ignoreIIFE: true,
         ignoreVoid: true,
       },
     ],
-    "@typescript-eslint/no-for-in-array": config.ERROR,
-    "@typescript-eslint/no-implied-eval": config.ERROR,
+    "@typescript-eslint/no-for-in-array": 2,
+    "@typescript-eslint/no-implied-eval": 2,
     "@typescript-eslint/no-meaningless-void-operator": [
-      config.ERROR,
+      2,
       {
         checkNever: true,
       },
     ],
     "@typescript-eslint/no-misused-promises": [
-      config.ERROR,
+      2,
       {
         checksConditionals: true,
         checksVoidReturn: {
@@ -51,38 +49,38 @@ module.exports = {
         },
       },
     ],
-    "@typescript-eslint/no-throw-literal": config.ERROR,
-    "@typescript-eslint/no-unnecessary-qualifier": config.ERROR,
-    "@typescript-eslint/prefer-includes": config.ERROR,
+    "@typescript-eslint/no-throw-literal": 2,
+    "@typescript-eslint/no-unnecessary-qualifier": 2,
+    "@typescript-eslint/prefer-includes": 2,
     "@typescript-eslint/prefer-nullish-coalescing": [
-      config.ERROR,
+      2,
       {
         ignoreConditionalTests: true,
         ignoreMixedLogicalExpressions: true,
       },
     ],
-    "@typescript-eslint/prefer-optional-chain": config.ERROR,
+    "@typescript-eslint/prefer-optional-chain": 2,
     "@typescript-eslint/prefer-readonly": [
-      config.ERROR,
+      2,
       {
         onlyInlineLambdas: true,
       },
     ],
-    "@typescript-eslint/prefer-reduce-type-parameter": config.ERROR,
-    "@typescript-eslint/prefer-regexp-exec": config.ERROR,
-    "@typescript-eslint/prefer-return-this-type": config.ERROR,
-    "@typescript-eslint/prefer-string-starts-ends-with": config.ERROR,
-    "@typescript-eslint/promise-function-async": config.ERROR,
+    "@typescript-eslint/prefer-reduce-type-parameter": 2,
+    "@typescript-eslint/prefer-regexp-exec": 2,
+    "@typescript-eslint/prefer-return-this-type": 2,
+    "@typescript-eslint/prefer-string-starts-ends-with": 2,
+    "@typescript-eslint/promise-function-async": 2,
     "@typescript-eslint/require-array-sort-compare": [
-      config.ERROR,
+      2,
       {
         ignoreStringArrays: false,
       },
     ],
-    "@typescript-eslint/return-await": [config.ERROR, "always"],
-    "@typescript-eslint/switch-exhaustiveness-check": config.ERROR,
+    "@typescript-eslint/return-await": [2, "always"],
+    "@typescript-eslint/switch-exhaustiveness-check": 2,
     "@typescript-eslint/unbound-method": [
-      config.ERROR,
+      2,
       {
         ignoreStatic: true,
       },

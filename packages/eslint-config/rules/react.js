@@ -1,6 +1,4 @@
-const config = require('../config');
-
 module.exports = {
-  'react/react-in-jsx-scope': config.OFF,
-  'react-hooks/exhaustive-deps': config.ERROR,
+  "react/react-in-jsx-scope": 0,
+  "react-hooks/exhaustive-deps": 2,
 };

@@ -1,5 +1,3 @@
-const config = require("./config");
-
 const coreRules = require("./rules/core");
 
 const typescriptRules = require("./rules/ts");
@@ -45,17 +43,17 @@ module.exports = {
         {
           files: ["*.ts", "*.tsx"],
           rules: {
-            "@typescript-eslint/explicit-member-accessibility": config.ERROR,
+            "@typescript-eslint/explicit-member-accessibility": 2,
           },
         },
         {
           files: ["*.d.ts"],
           rules: {
-            "@typescript-eslint/consistent-type-definitions": config.OFF,
-            "@typescript-eslint/no-empty-interface": config.OFF,
-            "@typescript-eslint/no-shadow": config.OFF,
-            "no-var": config.OFF,
-            "vars-on-top": config.OFF,
+            "@typescript-eslint/consistent-type-definitions": 0,
+            "@typescript-eslint/no-empty-interface": 0,
+            "@typescript-eslint/no-shadow": 0,
+            "no-var": 0,
+            "vars-on-top": 0,
           },
         },
       ],
