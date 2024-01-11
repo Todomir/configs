@@ -1,5 +1,11 @@
 # @todomir/eslint-config
 
+## 10.0.3
+
+### Patch Changes
+
+- 65ffe12: Fix TS rules having extra props
+
 ## 10.0.2
 
 ### Patch Changes
