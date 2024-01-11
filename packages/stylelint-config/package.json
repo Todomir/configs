@@ -1,6 +1,6 @@
 {
   "name": "@todomir/stylelint-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Opinionated StyleLint configuration for my projects",
   "keywords": [
     "stylelint",

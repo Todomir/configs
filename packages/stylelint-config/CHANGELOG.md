@@ -1,5 +1,11 @@
 # @todomir/stylelint-config
 
+## 4.0.1
+
+### Patch Changes
+
+- fde376b: Update package versions
+
 ## 4.0.0
 
 ### Major Changes

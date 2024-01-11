@@ -1,6 +1,6 @@
 {
   "name": "@todomir/eslint-config",
-  "version": "9.0.3",
+  "version": "9.0.4",
   "description": "Opinionated ESLint configuration for my projects",
   "keywords": [
     "eslint",
