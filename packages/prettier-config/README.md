@@ -34,5 +34,5 @@ Se não quiser utilizar no `package.json`, você pode usar de qualquer configura
 
 ```javascript
 // `prettier.config.js` or `.prettierrc.js`
-module.exports = '@todomir/prettier-config';
+module.exports = "@todomir/prettier-config";
 ```

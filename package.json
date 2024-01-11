@@ -9,9 +9,12 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "lint": "turbo run lint",
     "release": "turbo run build lint && changeset version && changeset publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
   },
   "devDependencies": {
     "@todomir/eslint-config": "workspace:*",
@@ -19,11 +22,8 @@
     "prettier": "latest",
     "turbo": "latest"
   },
+  "packageManager": "pnpm@8.14.0",
   "engines": {
     "node": ">=18.0.0"
-  },
-  "packageManager": "pnpm@8.14.0",
-  "dependencies": {
-    "@changesets/cli": "^2.27.1"
   }
 }

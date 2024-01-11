@@ -1,12 +1,12 @@
 {
   "name": "@todomir/tsconfig",
   "version": "3.0.0",
-  "license": "MIT",
-  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
   "keywords": [
     "typescript",
     "tsconfig"
   ],
+  "license": "MIT",
+  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
   "files": [
     "base.json",
     "nextjs.json",

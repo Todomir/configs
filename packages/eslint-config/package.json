@@ -1,14 +1,20 @@
 {
   "name": "@todomir/eslint-config",
   "version": "9.0.3",
-  "main": "index.js",
-  "license": "MIT",
   "description": "Opinionated ESLint configuration for my projects",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
   "exports": {
     ".": "./index.js",
     "./jsx": "./jsx.js",
     "./react": "./react.js"
   },
+  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.23.7",
     "@babel/eslint-parser": "^7.23.3",
@@ -19,12 +25,12 @@
   },
   "devDependencies": {
     "eslint": "^8.56.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.3.3",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "eslint": "^8.5.0",
@@ -33,23 +39,17 @@
     "typescript": "^5.0.0"
   },
   "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    },
     "react": {
       "optional": true
     },
     "react-dom": {
       "optional": true
+    },
+    "typescript": {
+      "optional": true
     }
   },
   "publishConfig": {
     "access": "public"
-  },
-  "author": "Abner Rodrigues <abnerluis1001@gmail.com>",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "eslint-config"
-  ]
+  }
 }
