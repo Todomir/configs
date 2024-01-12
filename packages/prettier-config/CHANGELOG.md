@@ -1,5 +1,11 @@
 # @todomir/prettier-config
 
+## 5.1.1
+
+### Patch Changes
+
+- 3e1b00f: Update import sort plugin
+
 ## 5.1.0
 
 ### Minor Changes

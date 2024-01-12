@@ -1,6 +1,6 @@
 {
   "name": "@todomir/prettier-config",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "Opinionated Prettier configuration for my projects",
   "keywords": [
     "prettier",
