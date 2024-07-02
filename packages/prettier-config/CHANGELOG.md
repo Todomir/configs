@@ -1,5 +1,11 @@
 # @todomir/prettier-config
 
+## 5.2.0
+
+### Minor Changes
+
+- 3330058: Update dependencies
+
 ## 5.1.1
 
 ### Patch Changes
